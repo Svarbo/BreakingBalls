@@ -6,7 +6,7 @@ public class Conveyor : MonoBehaviour
     private float _speed = 40;
     private Rigidbody _rigidbody;
 
-    private void Awake()
+    private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
     }

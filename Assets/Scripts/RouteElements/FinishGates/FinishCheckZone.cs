@@ -22,7 +22,6 @@ public class FinishCheckZone : NeedLinksObject
         }
 
         TryOpenGates();
-
         CheckGameOver();
     }
 
