@@ -72,6 +72,7 @@ MonoBehaviour:
   _needLinksObjects:
   - {fileID: 2942607214505718781}
   - {fileID: 3056017876590251112}
+  - {fileID: 7600367542027096382}
 --- !u!1001 &131042989641840599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -296,3 +297,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6567341196260735264, guid: 69e8a47f10c47494899020a00c503680, type: 3}
   m_PrefabInstance: {fileID: 6662691629473843230}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7600367542027096382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3823358989168466208, guid: 69e8a47f10c47494899020a00c503680, type: 3}
+  m_PrefabInstance: {fileID: 6662691629473843230}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3a02816ec7cf645bfce5cebbaad543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

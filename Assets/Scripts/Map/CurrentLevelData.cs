@@ -19,6 +19,8 @@ public class CurrentLevelData : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1;
+
         PreparePlatformIndexes(_levelLoader.LevelNumber);
     }
 
