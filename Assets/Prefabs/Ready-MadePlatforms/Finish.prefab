@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4029471563282082132}
   - component: {fileID: 8189590360974749876}
   m_Layer: 0
-  m_Name: FinishPlatform
+  m_Name: Finish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

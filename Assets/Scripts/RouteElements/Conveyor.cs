@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Conveyor : MonoBehaviour
 {
-    private float _speed = 40;
+    private float _speed = 45;
     private Rigidbody _rigidbody;
 
     private void Start()

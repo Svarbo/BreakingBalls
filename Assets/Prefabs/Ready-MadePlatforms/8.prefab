@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1723317063339224982}
   - component: {fileID: 3299648425084845743}
   m_Layer: 2
-  m_Name: LeftSnareLink
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2991720814797735637, guid: c75cf3683c1c23341bf88b6474602af3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.32
+      value: -11.32
       objectReference: {fileID: 0}
     - target: {fileID: 2991720814797735637, guid: c75cf3683c1c23341bf88b6474602af3, type: 3}
       propertyPath: m_LocalPosition.y

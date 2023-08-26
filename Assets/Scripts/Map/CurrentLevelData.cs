@@ -3,9 +3,8 @@ using UnityEngine;
 
 public class CurrentLevelData : MonoBehaviour
 {
-    private const int FirstPlatformIndex = 0;
-    private const int ChainPlatformIndex = 16;
-    private const int FinishPlatformIndex = 17;
+    private const int FinishGatesPlatformIndex = 13;
+    private const int FinishPlatformIndex = 14;
 
     [SerializeField] private LevelsData _levelsData;
     [SerializeField] private LevelLoader _levelLoader;
@@ -26,8 +25,6 @@ public class CurrentLevelData : MonoBehaviour
 
     private void PreparePlatformIndexes(int levelNumber)
     {
-        _platformIndexes.Add(FirstPlatformIndex);
-
         LinksIndexes linksIndexes = _levelsData.GetNeededLinksIndexes(levelNumber);
         List<int> indexes = linksIndexes.TakeIndexes();
 
@@ -40,7 +37,7 @@ public class CurrentLevelData : MonoBehaviour
     private void AddLastPlatforms()
     {
         for (int i = 0; i < _finishGatesPlatformsCount; i++)
-            _platformIndexes.Add(ChainPlatformIndex);
+            _platformIndexes.Add(FinishGatesPlatformIndex);
 
         _platformIndexes.Add(FinishPlatformIndex);
     }
